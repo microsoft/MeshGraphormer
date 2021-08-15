@@ -1,14 +1,24 @@
-# Project
+# MeshGraphormer ✨✨
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Official project page of [Mesh Graphormer](https://arxiv.org/abs/2104.00272). 
 
-As the maintainer of this project, please make a few updates:
+Mesh Graphormer is a new transformer-based method for human pose and mesh reconsruction from an input image. In this work, we study how to combine graph convolutions and self-attentions in a transformer to better model both local and global interactions. 
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Model and code will be released soon!
+
+
+## Citations
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@inproceedings{lin2021-mesh-graphormer,
+author = {Lin, Kevin and Wang, Lijuan and Liu, Zicheng},
+title = {Mesh Graphormer},
+booktitle = {ICCV},
+year = {2021},
+}
+```
+
 
 ## Contributing
 
