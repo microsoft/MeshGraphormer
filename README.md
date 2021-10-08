@@ -1,10 +1,38 @@
 # MeshGraphormer ✨✨
 
-Official project page of [Mesh Graphormer](https://arxiv.org/abs/2104.00272). 
+
+This is our research code of [Mesh Graphormer](https://arxiv.org/abs/2104.00272). 
 
 Mesh Graphormer is a new transformer-based method for human pose and mesh reconsruction from an input image. In this work, we study how to combine graph convolutions and self-attentions in a transformer to better model both local and global interactions. 
 
-Model and code will be released soon!
+
+## Installation
+Check [INSTALL.md](docs/INSTALL.md) for installation instructions.
+
+
+## Model Zoo and Download
+Please download our pre-trained models and other relevant files that are important to run our code. 
+
+Check [DOWNLOAD.md](docs/DOWNLOAD.md) for details. 
+
+## Experiments
+We provide python codes for training and evaluation.
+
+Check [EXP.md](docs/EXP.md) for details.
+
+
+## License
+
+Our research code is released under the MIT license. See [LICENSE](LICENSE) for details. 
+
+We use submodules from third parties, such as [huggingface/transformers](https://github.com/huggingface/transformers) and [hassony2/manopth](https://github.com/hassony2/manopth). Please see [NOTICE](NOTICE.md) for details. 
+
+Our models have dependency with SMPL and MANO models. Please note that any use of SMPL models and MANO models are subject to **Software Copyright License for non-commercial scientific research purposes**. Please see [SMPL-Model License](https://smpl.is.tue.mpg.de/modellicense) and [MANO License](https://mano.is.tue.mpg.de/license) for details.
+
+
+## Contributing 
+
+We welcome contributions and suggestions. Please check [CONTRIBUTE](docs/CONTRIBUTE.md) and [CODE_OF_CONDUCT](docs/CODE_OF_CONDUCT.md) for details. 
 
 
 ## Citations
@@ -20,24 +48,24 @@ year = {2021},
 ```
 
 
-## Contributing
+## Acknowledgments
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Our implementation and experiments are built on top of open-source GitHub repositories. We thank all the authors who made their code public, which tremendously accelerates our project progress. If you find these works helpful, please consider citing them as well.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+[huggingface/transformers](https://github.com/huggingface/transformers) 
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+[HRNet/HRNet-Image-Classification](https://github.com/HRNet/HRNet-Image-Classification) 
 
-## Trademarks
+[nkolot/GraphCMR](https://github.com/nkolot/GraphCMR) 
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+[akanazawa/hmr](https://github.com/akanazawa/hmr) 
+
+[MandyMo/pytorch_HMR](https://github.com/MandyMo/pytorch_HMR) 
+
+[hassony2/manopth](https://github.com/hassony2/manopth) 
+
+[hongsukchoi/Pose2Mesh_RELEASE](https://github.com/hongsukchoi/Pose2Mesh_RELEASE) 
+
+[mks0601/I2L-MeshNet_RELEASE](https://github.com/mks0601/I2L-MeshNet_RELEASE) 
+
+[open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) 
