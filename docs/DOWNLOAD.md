@@ -77,4 +77,4 @@
 
     We use the same data from our previous project [METRO](https://github.com/microsoft/MeshTransformer)
 
-    Please visit our previous project page to [download datasets and annotations]((https://github.com/microsoft/MeshTransformer/blob/main/docs/DOWNLOAD.md)) for experiments.
+    Please visit our previous project page to download datasets and annotations for experiments. Click [LINK](https://github.com/microsoft/MeshTransformer/blob/main/docs/DOWNLOAD.md) here.

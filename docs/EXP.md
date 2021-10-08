@@ -102,7 +102,7 @@ Example training log can be found here [2021-02-25-graphormer_h36m_log](https://
 
 ### Evaluation on Human3.6M
 
-In the following script, we evaluate our model `metro_h36m_state_dict.bin` on Human3.6M validation set. Check `docs/DOWNLOAD.md` for more details about downloading the model file.
+In the following script, we evaluate our model `graphormer_h36m_state_dict.bin` on Human3.6M validation set. Check `docs/DOWNLOAD.md` for more details about downloading the model file.
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node=8 \
