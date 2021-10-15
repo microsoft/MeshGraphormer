@@ -126,10 +126,7 @@ class GraphormerLayer(nn.Module):
         self.mesh_type = config.mesh_type
 
         if self.has_graph_conv == True:
-            if self.mesh_type=='hand':
-                self.graph_conv = GraphResBlock(config.hidden_size, config.hidden_size, mesh_type=self.mesh_type)
-            elif self.mesh_type=='body':
-                self.graph_conv = GraphResBlock(config.hidden_size, config.hidden_size, mesh_type=self.mesh_type)
+            self.graph_conv = GraphResBlock(config.hidden_size, config.hidden_size, mesh_type=self.mesh_type)
         
         self.intermediate = BertIntermediate(config)
         self.output = BertOutput(config)
