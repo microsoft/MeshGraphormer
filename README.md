@@ -20,6 +20,11 @@ Please download our pre-trained models and other relevant files that are importa
 
 Check [DOWNLOAD.md](docs/DOWNLOAD.md) for details. 
 
+## Quick demo
+We provide demo codes to run end-to-end inference on the test images.
+
+Check [DEMO.md](docs/DEMO.md) for details.
+
 ## Experiments
 We provide python codes for training and evaluation.
 

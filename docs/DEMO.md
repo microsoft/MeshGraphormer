@@ -22,7 +22,7 @@ python ./src/tools/run_gphmer_bodymesh_inference.py
 ```
 After running, it will generate the results in the folder `./samples/human-body`
 
- <img src="../samples/human-body/3dpw_test5_graphormer_pred.jpg" width="650"> 
+ <img src="../samples/human-body/3dpw_test5_graphormer_pred.jpg" width="400"> 
 
 ## Hand Reconstruction 
 
@@ -37,7 +37,7 @@ python ./src/tools/run_gphmer_handmesh_inference.py
 ```
 After running, it will outputs the results in the folder `./samples/hand`
 
- <img src="../samples/hand/internet_fig1_graphormer_pred.jpg" width="650"> 
+ <img src="../samples/hand/internet_fig1_graphormer_pred.jpg" width="400"> 
 
 
 
