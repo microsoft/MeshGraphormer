@@ -14,4 +14,4 @@ if [ ! -d $REPO_DIR/predictions ] ; then
     mkdir -p $REPO_DIR/predictions
 fi
 # Our model + test-time augmentation. It achieves 5.9 PA-MPVPE on FreiHAND Leaderboard
-wget -nc $BLOB/graphormer_release_ckpt200-multisc-pred.zip -O $REPO_DIR/predictions/ckpt200-multisc-pred.zip
+wget -nc $BLOB/graphormer-release-ckpt200-multisc-pred.zip -O $REPO_DIR/predictions/ckpt200-multisc-pred.zip
